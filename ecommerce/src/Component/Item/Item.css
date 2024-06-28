@@ -1,0 +1,19 @@
+
+
+.item img{
+    width: 65%;
+    height: 70%;
+}
+
+.priceCategory {
+    margin: auto;
+}
+
+.item :hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.item {
+    border: solid 1px black;
+    gap: 10px;
+}

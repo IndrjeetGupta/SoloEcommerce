@@ -1,0 +1,25 @@
+.popularItem{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+.popular {
+  text-align: center;
+}
+hr{
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 5px;
+    background-color: aqua;
+    border: none;
+    /* margin: 10px 0px 10px 0px; */
+    margin: auto;
+    border-radius: 2px;
+
+}
+
+h1{
+    margin: 20px 0px 20px 0px;
+}

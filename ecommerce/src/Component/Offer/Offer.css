@@ -1,0 +1,49 @@
+.offer{
+   
+    width: 90%;
+    background-color: rgb(71, 132, 132);
+    margin: auto;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+    height: 60vh;
+    margin-top: 100px;
+}
+
+.offer_left{
+    display: flex;
+    flex-direction: column;
+    
+}
+ h1 {
+    margin: -200px, 0px, -200px ,0px;
+
+}
+.offer_left h1{
+    
+    margin: 0px 0px 0px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    
+}
+
+.offer_left p{
+    margin: 20px 0px 20px 0px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: x-large; 
+}
+.offer_left button{
+    background-color: green;
+    width: 70%;
+    border: none;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+    font-size: large; 
+   
+}
+.offer_light img{
+    border-radius: 450px;
+}

@@ -1,9 +1,16 @@
 import React from 'react'
+import Hero from '../Component/Hero/Hero'
+import Popular from '../Component/Popular/Popular'
+import Offer from '../Component/Offer/Offer'
+import NewCollection from '../Component/NewCollection/NewCollection'
 
 function Shop() {
   return (
     <div>
-        <h1>shop page</h1>
+        <Hero/>
+        <Popular/>
+        <Offer/>
+        <NewCollection/>
       
     </div>
   )

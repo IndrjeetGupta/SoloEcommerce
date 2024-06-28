@@ -1,0 +1,58 @@
+.hero{
+    height: 100vh;
+    display: flex;
+    background-color: rgb(176, 168, 183);
+    justify-content: space-evenly;
+}
+.hero_left{
+    margin-top: 150px;
+}
+.hero_right{
+    margin-top: 150px;
+
+}
+
+.hero_right img{
+    border-radius: 100px;
+
+}
+.hero_hand_icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero_hand_icon p{
+    font-size: 60px;
+    font-weight: 500;
+    
+}
+
+.hero_hand_icon img{
+     width: 70px;
+     /* height: 60px; */
+     border-radius: 35px;
+
+
+}
+.collection{
+    font-size: 60px;
+    font-weight: 500;
+}
+.everone{
+    font-size: 60px;
+    font-weight: 500;
+}
+.hero_latest_item p{
+    width: 200px;
+    background-color: rgb(185, 37, 37);
+    text-align: center;
+    height: 40px;
+    margin: auto;
+    border-radius: 20px;
+    padding-top: 15px;
+}
+
+/* .hero_left{
+    margin-bottom: 100px;
+} */
+
