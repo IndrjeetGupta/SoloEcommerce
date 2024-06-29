@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className='hero'>
 
-        <div className="hero_left">
+        <div className="hero_left" >
             <h2>New Arrival</h2>
 
             <div>
@@ -15,7 +15,7 @@ function Hero() {
                     <p>New</p>
                     <img src={hand_icon} alt="" />
                 </div>
-                <p className='collection'>Collection</p>
+                <p className='collectionHero'>Collection</p>
                 <p className='everone'>Ever One</p>
             </div>
 

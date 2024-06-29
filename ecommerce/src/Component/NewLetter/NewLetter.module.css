@@ -1,0 +1,55 @@
+.new_letter{
+    width: 95%;
+    background-color: rgb(187, 223, 223);
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    /* justify-content: center; */
+    text-align: center;
+    height: 50vh;
+    margin-top: 50px;
+}
+.new_letter h1{
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 100px;
+    font-weight: 500;
+    font-size: 50px;
+
+
+}
+.new_letter p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
+    font-size: 20px;
+   
+}
+
+.email{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 50px;
+}
+
+.email input {
+    height: 50px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+}
+
+.email button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: green;
+}
+.email button:hover {
+    background-color: aqua;
+    
+}
+.email button:active {
+    background-color: brown;
+}

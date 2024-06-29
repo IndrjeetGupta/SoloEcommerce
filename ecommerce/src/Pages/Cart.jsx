@@ -1,10 +1,12 @@
 import React from 'react'
+import Footer from '../Component/Footer/Footer'
 
 function Cart() {
   return (
     <div>
       
-      <h2>cart page</h2>
+     
+      <Footer/>
     </div>
   )
 }

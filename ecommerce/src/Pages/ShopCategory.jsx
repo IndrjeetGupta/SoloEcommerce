@@ -1,9 +1,11 @@
 import React from 'react'
+import Footer from '../Component/Footer/Footer'
 
 function ShopCategory() {
   return (
     <div>
-        <h2>shop category</h2>
+        
+        <Footer/>
       
     </div>
   )

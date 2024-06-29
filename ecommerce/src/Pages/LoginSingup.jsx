@@ -1,9 +1,11 @@
 import React from 'react'
+import Footer from '../Component/Footer/Footer'
 
 function LoginSingup() {
   return (
     <div>
-      <h1>Log in page</h1>
+   
+      <Footer/>
     </div>
   )
 }

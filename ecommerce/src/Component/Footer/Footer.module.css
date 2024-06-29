@@ -1,0 +1,53 @@
+.footer{
+    margin-top: 20px;
+    background-color: rgb(163, 225, 225);
+    height: 60vh;
+}
+.shooper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.shooper img{
+    width: 18%;
+}
+
+.shooper p{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+.detail{
+    margin-top: -50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.detail li{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+.socal_logo{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+
+}
+.socal_logo img {
+    width: 2%;
+    border-radius: 10px;
+    /* height: 4%; */
+}
+.footer_copy_right p{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
