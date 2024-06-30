@@ -20,7 +20,7 @@ function Navbar() {
                 <li onClick={() => setMenu('shop')} >< Link to='/' style={{textDecoration: "none" ,color: 'black'}}>Shop</Link>  {menu === 'shop' ?<hr /> :<></> } </li>
                 <li onClick={() => setMenu('men')} > <Link to='/men' style={{textDecoration: "none",color: 'black'}}>Men</Link>  {menu === 'men' ?<hr /> :<></> } </li>
                 <li onClick={() => setMenu('women')} ><Link to='/women'  style={{textDecoration: "none",color: 'black'}}>Women</Link> {menu === 'women' ?<hr /> :<></> }</li>
-                <li onClick={() => setMenu('kid')} ><Link to='/kid'  style={{textDecoration: "none",color: 'black'}}>Kid</Link> {menu === 'kid' ?<hr /> :<></> }</li>
+                <li onClick={() => setMenu('kid')} ><Link to='/kid'  style={{textDecoration: "none",color: 'black'}}>Electronic</Link> {menu === 'kid' ?<hr /> :<></> }</li>
             </ul>
 
                 </div>

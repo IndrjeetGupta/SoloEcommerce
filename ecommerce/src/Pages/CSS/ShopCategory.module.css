@@ -1,0 +1,14 @@
+.shopeCategory{
+    
+    margin: auto;
+}
+.product img{
+    width: 50%;
+ 
+}
+.shopeCategory_product{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    margin: auto;
+}
