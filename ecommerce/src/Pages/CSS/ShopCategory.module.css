@@ -12,3 +12,28 @@
     justify-content: center;
     margin: auto;
 }
+.exploreMore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    border-radius: 10px;
+    height: 70px;
+    width: 300px;
+    margin: auto;
+   text-align: center;
+   font-size: x-large;
+   font-family: 'Courier New', Courier, monospace;
+}
+
+.shopeCategory_sort{
+    display: flex;
+    margin-left: 1150px;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: green;
+    margin-bottom: 50px;
+}

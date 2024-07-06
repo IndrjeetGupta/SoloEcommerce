@@ -37,6 +37,10 @@ function ShopCategory(props) {
         }
 
       </div>
+      <div className={style.exploreMore}>
+        Explore More
+
+      </div>
     </div>
   )
 }

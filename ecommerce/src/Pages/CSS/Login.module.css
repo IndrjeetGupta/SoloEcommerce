@@ -1,0 +1,99 @@
+.LoginSingup{
+    background-color: rgb(161, 181, 174);
+}
+
+.LoginSingup_Container{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin: auto;
+    width: 600px;
+    height: 48vh;
+    border-radius: 20px;
+    background-color: white;
+}
+.Loginsing_input{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  
+
+}
+
+.Loginsing_input input{
+    padding-left: 20px;
+   width: 300px;
+   height: 40px;
+   margin: auto;
+   margin-top: 10px;
+   border-radius: 15px;
+   font-family: 'Courier New', Courier, monospace;
+   font-weight: 600;
+   font-size: large;
+   border: 1px solid black;
+    
+}
+.LoginSingup_Container h1{
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: -1px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+
+.LoginSingup_Container button{
+    height: 40px;
+    width: 320px;
+    background-color: aqua;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: large;
+    cursor: pointer;
+    
+}
+
+.LoginSingup_Container button:hover{
+    background-color: palevioletred;
+}
+
+.Loginsing_login{
+
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: large;
+   
+
+}
+.Loginsing_agree{
+    gap: 20px;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: large;
+
+} 
+
+.Loginsing_login span{
+    color: brown;
+    margin-left: 10px;
+}
