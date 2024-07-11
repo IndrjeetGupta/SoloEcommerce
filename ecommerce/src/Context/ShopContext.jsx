@@ -21,6 +21,8 @@ export const ShopContextProvider = ({children}) =>{
         fetchContextData()
 
     },[])
+    console.log(data)
+   
     return <ShopContext.Provider value={{data}}>{children}</ShopContext.Provider>
 
   

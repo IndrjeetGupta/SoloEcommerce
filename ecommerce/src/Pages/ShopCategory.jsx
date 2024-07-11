@@ -3,6 +3,7 @@ import React, { useContext } from 'react'
 import style from './CSS/ShopCategory.module.css'
 import { ShopContext } from '../Context/ShopContext'
 import Item from '../Component/Item/Item'
+import { Link } from 'react-router-dom'
 
 function ShopCategory(props) {
   const {data} = useContext(ShopContext)
@@ -23,7 +24,8 @@ function ShopCategory(props) {
               data.map((e) =>{
                 if (props.category === e.category){
                   return <div key={e.id} className={style.product}>
-                    <img src={e.image} alt="" />
+                   <Link to={`/product/${e.id}`}><img  src={e.image} alt="" /></Link>
+                   
                     <p>{e.title}</p>
                     <p>{e.price}</p>
 
