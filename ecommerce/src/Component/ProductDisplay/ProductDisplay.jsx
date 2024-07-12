@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import style from '../ProductDisplay/ProductDisplay.module.css'
 import { FaStar } from "react-icons/fa";
 import { CiStar } from "react-icons/ci";
+import { ShopContext } from '../../Context/ShopContext';
 
-function ProductDisplay({image,title,price}) {
+function ProductDisplay({image,title,price,id}) {
+
+  const {data,cartItem,addToCart,removeToCart} = useContext(ShopContext)
     
   return (
     <div className={style.ProductDisplay}>
@@ -52,7 +55,7 @@ function ProductDisplay({image,title,price}) {
             <div>XXL</div>
 
           </div>
-          <button>Add to Cart</button>
+          <button onClick={() => addToCart(id)}>Add to Cart</button>
           <p className={style.ProductDisplay_right_category}><span>Category : </span> Women T-shirt, Crop, Top, </p>
           <p className={style.ProductDisplay_right_category}><span>Tags : </span> Morden, Latest </p>
 

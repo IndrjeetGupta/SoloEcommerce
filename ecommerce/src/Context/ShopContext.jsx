@@ -21,9 +21,35 @@ export const ShopContextProvider = ({children}) =>{
         fetchContextData()
 
     },[])
-    console.log(data)
-   
-    return <ShopContext.Provider value={{data}}>{children}</ShopContext.Provider>
+
+    const getDefaultCart = () =>{
+        let cart = {}
+
+        for(let i= 0; i <20+1; i++){
+            cart[i] = 0
+    
+        }
+        return cart
+
+    }
+    const [cartItem , setCartItem] = useState(getDefaultCart())
+
+    // console.log(data)
+    // console.log(cartItem)
+    // console.log(data.length)
+
+    const addToCart = (itemId) =>{
+        setCartItem((prev) =>({...prev,[itemId]: prev[itemId]+1}))
+        console.log(cartItem)
+
+    }
+
+    const removeToCart = (itemId) =>{
+        setCartItem((prev) =>({...prev,[itemId]: prev[itemId]-1}))
+
+    }
+
+    return <ShopContext.Provider value={{data,cartItem,addToCart,removeToCart}}>{children}</ShopContext.Provider>
 
   
 
